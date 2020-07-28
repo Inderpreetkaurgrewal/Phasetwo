@@ -1,0 +1,23 @@
+  {
+  	"impTasks": [{
+  			"item": "Exercise",
+  			"time": "1 hour",
+  			"image": "exercise.jpg"
+  		},
+  		{
+  			"item": "Study",
+  			"time": "6- 8 hours",
+  			"image": "study.jpg"
+  		},
+  		{
+  			"item": "Diet",
+  			"time": "1 hour",
+  			"image": "dietplan.jpg"
+  		},
+  		{
+  			"item": "go grocery shopping",
+  			"time": "1 hour",
+  			"image": "grocery.jpg"
+  		}
+  	]
+  }

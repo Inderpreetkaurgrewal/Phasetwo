@@ -1,0 +1,102 @@
+section {
+  padding: 3em 0 3em 0; 
+}
+
+h1 {
+  font-size: 5rem;
+  padding: 1em 0; 
+}
+
+body {
+  background-image: linear-gradient(120deg, #f6d365, #fda085);
+}
+h1,
+h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+h2 {
+  font-size: 3rem; 
+}
+
+ul li {
+  font-family: 'Galada', cursive;
+  font-size: 2rem; 
+}
+
+#deals h3 {
+  font-family: 'Galada', cursive;
+}
+
+li button {
+  margin: 15px;
+  display: inline-block;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 0.9em;    
+}
+
+input[type="text"] {
+  margin: 2em 0; 
+}
+
+section {
+  border: 1px dashed #333; 
+  padding: 4em 2em;
+}
+
+
+#mylocation {
+  margin: 4em 0; 
+}
+
+
+
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  color: Black;
+  font-family: "Poppins", sans-serifs;
+  min-height: 100vh;
+}
+
+* {
+  font-family: 'Josefin Sans',
+    sans-serif;
+  padding: 0;
+  margin: 0;
+  color: var(--font-color);
+}
+
+
+#container {
+  background-color: var(--container-bg-color);
+  padding: 2%;
+  min-height: 30vh;
+  min-width: 30vw;
+  width: auto;
+  height: auto;
+  margin-top: 10vh;
+  border-radius: 5%;
+}
+
+/* we make it inline-block so that our `h2::after` will only span the length of the `h2` and not the whole row */
+
+h2 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  display: inline-block;
+}
+#map {
+ height: 400px;
+ width: 900px;
+}
+section {
+  border: 1px dashed #333; 
+  padding: 4em 2em;
+}

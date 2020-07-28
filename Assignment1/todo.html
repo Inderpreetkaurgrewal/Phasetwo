@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet" />
+  <link href="todo.css" rel="stylesheet">
+  <script src="todo.js" defer></script>
+  <script src="xhrap1.js" defer></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNW3boRsn8Vy6UcigIm_za1HPs-jyxoRM&callback=initMap"></script>
+  <script src="thirdpartyapi.js" defer></script>
+
+</head>
+<!-- <h2>ToDo List</h2>
+<div id = style>
+  <input type="text" placeholder="Enter Activities..." id="Activity" />
+  <button type=submit id="add">Add</button>
+  <script src="todo.js"></script>
+
+</div>
+  <div class=container>
+    <p></p>
+  </div>
+-->
+
+<body>
+  <main class="container">
+    <h1>Plan your Goals! </h1>
+    <section class="row">
+      <h2>To do List</h2>
+      <form>
+        <input type="text" id="listItem" />
+        <input type="submit" value="Add To List" />
+      </form>
+      <ul></ul>
+    </section>
+    <section id="deals" class="row">
+      <h2> Important Tasks</h2>
+
+    </section>
+    <section class="row">
+      <h2> Gyms Near You </h2>
+      <button id="mylocation"> Is There A Gym Near Me? </button>
+      <p id="location"></p>
+      <!---	<a id ="map-link" target="_blank"></a>-->
+      <div id="map"></div>
+    </section>
+  </main>
+</body>
+
+</html>
